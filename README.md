@@ -150,4 +150,10 @@ Equipping: Items marked with an Equipment Slot will be instantiated as children 
 
 Consumables: Items marked Is Consumable are removed from inventory after being used.
 
-Persistence: Coins and Inventory are saved to PlayerPrefs and loaded automatically when the game starts.
+Persistence: Coins and Inventory are saved to PlayerPrefs and loaded automatically when the game starts. Because PlayerPrefs is Unity's way of storing data persistently on the user's device (like a small database), any value saved with PlayerPrefs.SetInt() will remain saved even when:
+
+You load a new scene.
+
+You close the game and reopen it later.
+
+This means your players' coin balances will always be carried over, providing a seamless and persistent economic system in your game.
