@@ -3,6 +3,8 @@ add custom spawnable game objects from your game allow spawnng anything from hea
 ....(setup info) 1 Project Structure & Script Placement
 Ensure all provided C# scripts (ShopItemSO.cs, CoinCollect.cs, CoinManager.cs, ShopItemUI.cs, ShopManager.cs, InventoryItemUI.cs, InventoryManager.cs, EquipmentManager.cs, PanelTriggerActivator.cs, InventoryPanelActivator.cs, UIPauseManager.cs) are in your Unity project's Assets folder (e.g., in an Assets/Scripts folder).
 
+*make sure your player input in the player section of project settings is set to both inputs*
+
 2. Install Newtonsoft.Json 📦
 The inventory system uses JSON for saving/loading.
 
